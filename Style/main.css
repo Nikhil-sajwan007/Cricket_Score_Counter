@@ -16,6 +16,7 @@
     --sky-blue: #84B1D9;
     --light-brown: #D9B343;
     --dark-brown: #A6813C;
+    --light-gray : #b6b2b2;
     --prime-font: "Poppins", sans-serif;
 }
 
@@ -83,8 +84,9 @@ body{
 
     display: inline-block;
     padding: 0.5rem 0.9rem;
-    background-color: var(--sky-blue);
+    background-color: var(--light-gray);
     border-radius: 50%;
+    font-size: 1.1rem;
 
 }
 
