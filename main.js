@@ -2,17 +2,23 @@ $(document).ready(function(){
 
 // All buttons functions 
 
+runCount = 0;
+
 var dot = function(){
 
     $('ul').append('<li class = "list">0</li>');
-
+    
 
 }
 
 var one = function(){
 
     $('ul').append('<li class = "list">1</li>');
-
+    
+    
+    runCount = runCount + 1
+    $('#run-Count').text(runCount)
+  
 
 }
 
@@ -80,4 +86,11 @@ $('#reset').on("click", reset);
 $('#undo').on("click", undo);
 
 
+// ALL button function ends here 
+
+
+
+
 });
+
+
