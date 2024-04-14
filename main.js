@@ -37,20 +37,47 @@ var four = function(){
 
 }   
     
-    
+var six = function(){
+
+    $('ul').append('<li class = "list">6</li>');
+
+
+}
+
+var noBall = function(){
+
+    $('ul').append('<li class = "list">NB<sup>+1</sup></li>');
+
+
+}  
+
+var wideBall = function(){
+
+    $('ul').append('<li class = "list">WB<sup>+1</sup></li>');
+
+
+}
+
+var reset = function(){
+
+    $('ul li').remove()
+}
+
+var undo = function(){
+
+    $('ul li:last-child').remove()
+}
 
 $('#dotBtn').on("click", dot);
 $('#oneBtn').on("click", one);
 $('#twoBtn').on("click", two);
 $('#threeBtn').on("click", three);
 $('#fourBtn').on("click", four);
-
-
-
-
-
-
-
+$('#sixBtn').on("click", six);
+$('#noBall').on("click", noBall);
+$('#wideBall').on("click", wideBall);
+$('#reset').on("click", reset);
+$('#undo').on("click", undo);
 
 
 });

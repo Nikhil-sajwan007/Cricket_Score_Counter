@@ -87,6 +87,7 @@ body{
     background-color: var(--light-gray);
     border-radius: 50%;
     font-size: 1.1rem;
+    margin-right: 0.4rem;
 
 }
 
