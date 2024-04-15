@@ -3,7 +3,7 @@ $(document).ready(function () {
     // All buttons functions 
 
     runCount = 0;
-    
+        
 
 
     var dot = function () {
