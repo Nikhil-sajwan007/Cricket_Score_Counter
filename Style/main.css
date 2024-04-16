@@ -28,6 +28,7 @@ body{
     align-items: center;
     height: 100vh;
     font-size: 16px;
+    
 }
 
 
@@ -74,7 +75,7 @@ body{
 .this-over{
 
     flex-grow: 1;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     align-content: center;
     padding-left: 1rem;
     
