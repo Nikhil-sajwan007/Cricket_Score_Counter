@@ -28,7 +28,8 @@ body{
     align-items: center;
     height: 100vh;
     font-size: 16px;
-    
+    background-image: url(./images/cricket-bg.jpg);
+
 }
 
 
