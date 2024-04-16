@@ -29,6 +29,8 @@ body{
     height: 100vh;
     font-size: 16px;
     background-image: url(./images/cricket-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -38,7 +40,7 @@ body{
     max-width: 550px;
     width: 35%;
     /* padding: 3rem 3rem; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius:0.4rem ;
 }
 
@@ -48,6 +50,8 @@ body{
 .score-display{
 
     display: flex;
+    background-color: var(--dark-blue);
+    border-radius: 60px;
 }
 
 
