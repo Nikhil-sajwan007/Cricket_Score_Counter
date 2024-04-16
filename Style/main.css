@@ -57,8 +57,8 @@ body{
 
 .run-over{
 
-    background-color: var(--dark-blue);
-    border-left: 2px solid var(--dark-brown) ;
+    /* background-color: var(--dark-blue); */
+    /* border-left: 2px solid var(--dark-brown) ; */
     border-right: 2px solid var(--dark-brown);
     color: white;
     padding: 1rem;
