@@ -64,7 +64,7 @@ $(document).ready(function () {
 
     var noBall = function () {
 
-        $('ul').append('<li class = "list">NB<sup>+1</sup></li>');
+        $('ul').append('<li class = "list">+1<sup>NB</sup></li>');
         runCount = runCount + 1
         $('#run-Count').text(runCount)
 
