@@ -17,7 +17,9 @@
     --light-brown: #D9B343;
     --dark-brown: #A6813C;
     --light-gray : #b6b2b2;
+    --white : #fff;
     --prime-font: "Poppins", sans-serif;
+
 }
 
 body{
@@ -126,6 +128,19 @@ body{
     font-size: 1.5rem;
     text-align: center;
     border-radius: 0.3rem;
+<<<<<<< HEAD
+=======
+    border: none;
+>>>>>>> e58927ca44880250519703cfd45443808d1a1259
     padding: 0.6rem 0.9rem;
     width: 100%;
+    cursor: pointer;
 }
+
+.key:hover{
+
+    background-color: var(--dark-blue);
+    color: var(--white);
+
+}
+
