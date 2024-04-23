@@ -6,6 +6,8 @@ $(document).ready(function () {
         
 
 
+    
+    
     var dot = function () {
 
         $('ul').append('<li class = "list">0</li>');
@@ -83,6 +85,7 @@ $(document).ready(function () {
     var reset = function () {
 
         $('ul li').remove()
+        $('#run-Count').text(runCount = 0);
     }
 
     var undo = function () {
